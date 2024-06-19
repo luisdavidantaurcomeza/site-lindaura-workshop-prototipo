@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+<!-- <!DOCTYPE html>: Declaração do tipo de documento que indica que o conteúdo é um documento HTML5.
+<html>: Elemento raiz do documento HTML.
+<head>: Contém metadados sobre o documento.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Meta tag para garantir que a página 
+seja responsiva, ajustando a escala do conteúdo para caber na largura da tela do dispositivo.
+
+
+<link rel="stylesheet" href="style.css"> : 
+Link para um arquivo CSS externo chamado style.css que contém as regras de estilo para esta página. -->
+</head>
+<body>
+
+<div class="centered-container">
+  <h1 class="centered">TEXTO</h1>
+  <button class="button" onclick="openPage()">Iniciar</button>
+</div>
+
+<!-- <body>: Contém o conteúdo visível da página.
+  <div class="centered-container">: Um contêiner div que provavelmente está 
+    centralizado na página (com base na classe CSS centered-container definida no style.css).
+  <h1 class="centered">TEXTO</h1>: Cabeçalho de nível 1 (h1) com o texto "TEXTO", que também está provavelmente centralizado devido à
+   classe CSS centered.
+  <button class="button" onclick="openPage()">Iniciar</button>: Um botão com a classe button que, ao ser clicado, executa a função
+   JavaScript openPage(). O texto do botão é "Iniciar". -->
+
+<script src="main.js" defer></script>
+<!-- 
+A seção body exibe um título "TEXTO" e um botão "Iniciar".
+O estilo e posicionamento do título e do botão são definidos por classes CSS (centered-container, centered, button) que estão especificadas 
+em um arquivo CSS vinculado no <head> (não mostrado aqui).
+O botão possui um manipulador de evento onclick, que chama a função openPage() definida no arquivo main.js.
+ -->
+</body>
+</html>
